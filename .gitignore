@@ -1,7 +1,7 @@
 ## Prevent Vanillia Minecraft folders from being tracked
 .minecraft/coremods
 .minecraft/logs
-.minecraft/resourcepacks
+# .minecraft/resourcepacks
 .minecraft/saves
 .minecraft/screenshots
 .minecraft/server-resource-packs

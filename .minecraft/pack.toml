@@ -1,13 +1,13 @@
-name = "Modpack Template"
-author = "Merith.TK"
+name = "MC-Essentials"
+author = "Chris Tomlin"
 version = "1.0.0"
 pack-format = "packwiz:1.1.0"
 
 [index]
 file = "index.toml"
 hash-format = "sha256"
-hash = "58ea5a6d260433d09d7de2602ee3dc24509caf50cc7a8535c471e4f8c475a01a"
+hash = "3e5c957fad6d72c80e5af641ad745908e7bf2f4c2f7ee8ed1d9fcc8aa69c622a"
 
 [versions]
-fabric = "0.16.9"
-minecraft = "1.21.3"
+fabric = "0.16.14"
+minecraft = "1.21.5"
