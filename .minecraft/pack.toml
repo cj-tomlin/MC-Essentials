@@ -1,0 +1,13 @@
+name = "Modpack Template"
+author = "Merith.TK"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "58ea5a6d260433d09d7de2602ee3dc24509caf50cc7a8535c471e4f8c475a01a"
+
+[versions]
+fabric = "0.16.9"
+minecraft = "1.21.3"
