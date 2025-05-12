@@ -35,6 +35,7 @@ multimc: build
 	cp .minecraft/icon.png ./${ICONNAME}_icon.png
 	7z d .build/${PACKNAME}-multimc.zip ./* -r
 	7z d .build/${PACKNAME}-multimc.zip ./.minecraft -r
+	@echo "PACKURL: $(shell pw detect)"
 	@sed -i 's#{PACKURL}#$(shell pw detect)#g' instance.cfg
 	@sed -i 's#{ICONNAME}#${ICONNAME}#g' instance.cfg
 	7z a .build/${PACKNAME}-multimc.zip ./* -r
@@ -43,6 +44,7 @@ multimc: build
 	rm ./${ICONNAME}_icon.png
 	@sed -i 's#$(shell pw detect)#{PACKURL}#g' instance.cfg
 	@sed -i 's#${ICONNAME}#{ICONNAME}#g' instance.cfg
+
 
 technic: build
 	@echo "Making Technic pack"
